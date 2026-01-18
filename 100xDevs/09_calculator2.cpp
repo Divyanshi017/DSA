@@ -8,9 +8,14 @@ int main(){
     cin >> m;
     if(1<=n && m<=1000000000){
         cout << n << " + " << m << " = " << n+m << endl;
+        cout<< endl;
         cout << n << " - " << m << " = " << n-m << endl;
+        cout<< endl;
         cout << n << " * " << m << " = " << n*m << endl;
+        cout<< endl;
         cout << n << " / " << m << " = " << n/m << endl;
+        cout<< endl;
         cout << n << " % " << m << " = " << n%m << endl;
+        cout<< endl;
     }
 }
