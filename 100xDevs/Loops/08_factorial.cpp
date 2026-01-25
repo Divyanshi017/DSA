@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
+    long long f=1;
     int n;
-    long long sum = 0;
-    cin>> n;
+    cin >> n;
     for(int i=1; i<=n; i++){
-        sum +=i;
+        f=f*i;
     }
-    cout<< sum;
+    cout<<f;
 }
